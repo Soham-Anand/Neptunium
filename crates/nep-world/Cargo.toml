@@ -1,0 +1,8 @@
+[package]
+name = "nep-world"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+nep-core = { path = "../nep-core" }
+serde.workspace = true

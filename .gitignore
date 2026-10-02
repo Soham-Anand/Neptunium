@@ -1,0 +1,9 @@
+target/
+world/
+*.log
+*.pid
+mcjar/
+mcjar-*.txt
+logs/
+jharness/
+.DS_Store

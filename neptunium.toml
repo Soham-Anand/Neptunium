@@ -1,0 +1,23 @@
+# Neptunium localhost config — 26.2 targets
+[server]
+motd = "Neptunium 26.2 — localhost reactor"
+java_port = 25566
+bedrock_port = 19133
+host = "127.0.0.1"
+max_players = 20
+online_mode = false  # localhost dev only
+
+[world]
+name = "world-26-2"
+seed = 262
+generator = "flat"  # M0: flat grass @ y=64. M2: vanilla-like
+spawn = [8, 65, 8]
+
+[protocols]
+java_26_2 = 776
+bedrock_26_2 = 924
+data_pack = "107.0"
+resource_pack = "88.0"
+
+[tick]
+target_tps = 20

@@ -1,0 +1,14 @@
+[package]
+name = "nep-net"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+serde_json.workspace = true
+tokio.workspace = true
+nep-core = { path = "../nep-core" }
+nep-protocol-java = { path = "../nep-protocol-java" }
+nep-protocol-bedrock = { path = "../nep-protocol-bedrock" }
+thiserror.workspace = true
+tracing.workspace = true
